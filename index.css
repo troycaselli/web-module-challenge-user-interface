@@ -1,6 +1,8 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 * {
   color: #3C373B;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -14,7 +16,7 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
-  padding: 0 10px;
+  padding: 0px;
   /*=======  Update the font size to 30px */
   font-size: 30px;
 }
@@ -23,7 +25,7 @@ h2, h3, h4, h5, h6 {
 p {
 font-size: 16px;
 font-family: roboto;
-padding: 10px;
+padding: 0px;
 line-height: 1.4;
 }
 
@@ -72,7 +74,7 @@ color: #F87B99;
 }
 
 .contact-section {
-  /* border-top: 1px dashed black; */
+  border-top: 1px solid grey;
   padding: 20px 0;
 }
 
@@ -81,15 +83,16 @@ color: #F87B99;
   margin: 0 0 10px 0;
 }
 
+
 /*======= Create a selector for the address tag in the contact-section class to have the following styles:*/
-.contact-section address {
+.contact-section div {
   line-height: 2;
 }
 
 footer {
   width: 100%;
   background: #F87B99;
-  /* border-top: 1px dashed white; */
+  border-top: 1px dashed white;
 }
 
 footer .footer-content { 
@@ -124,7 +127,7 @@ footer a:hover {
   color: white;
 }
 
-footer .footer-content .copyright {
+.copyright {
   padding: 20px 0;
    /*======= center the text here */
  text-align: center;
